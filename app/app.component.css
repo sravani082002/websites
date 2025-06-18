@@ -1,0 +1,15 @@
+/* footer {
+    background-color: pink;
+
+} */
+table {
+    border-spacing: 30px;
+    text-align: center;
+  }
+th {
+    padding: 30px;
+ }
+ body {
+	background: #e2eaef;
+	font-family: "Open Sans", sans-serif;
+}

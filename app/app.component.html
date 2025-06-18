@@ -1,0 +1,150 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" routerLink="myntra"><img src="../assets/logo1.jpg" alt="" hight="40px" width="40px">
+        </a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a routerLink="men">MEN</a></li>
+        <li><a routerLink="women">WOMEN</a></li>
+        <li><a routerLink="kids">KIDS</a></li>
+        <li><a routerLink="electronics">ELECTRONICS</a></li>
+        <li><a routerLink="beauty">BEAUTY</a></li>
+        <li><a routerLink="studio">STUDIO</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+
+
+        </div>
+
+        </div>
+      </form>
+      <form class="navbar-form navbar-left" action="/action_page.php" style="text-align: right;">
+        <div class="input-group">
+          
+        
+            <!-- <a href="#">
+              <span class="glyphicon glyphicon-heart" style="font-size: 40px;"></span>  
+            </a> -->
+          
+            
+              <ul>
+               .......................................................................................................<button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-user"></span> <br><li><a routerLink="profile">Profile</a></li> 
+                </button>....
+                <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-heart-empty"></span><br><li><a routerLink="wishlist">Wishlist</a></li>
+                </button>....
+                <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-shopping-cart"></span> <br><li><a routerLink="bag">Bag</a></li>
+                </button>
+              </ul>
+            
+            
+    
+        </div>
+      </form>
+    </div>
+  </nav>
+  
+  
+  <div class="container">
+    <router-outlet></router-outlet>
+    
+  </div>
+  <footer>
+    <hr>
+    <table>
+      <tr>
+        <th><b>ONLINE SHOPPING</b></th>
+        <th><b>CUSTOMER POLICIES</b></th>
+        <th><b>EXPERIENCE MYNTRA APP ON MOBILE</b></th>
+        <th><b>KEEP IN TOUCH</b></th>
+        <th><b>USEFUL LINKS</b></th>
+      </tr>
+      <tr>
+        <td><a routerLink="men">Men</a></td>
+        <td><a routerLink="contactus">ContactUs</a></td>
+        <td><a href="https://r.search.yahoo.com/_ylt=AwrKAIaxtStlIYsBBR27HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697392177/RO=10/RU=https%3a%2f%2fplay.google.com%2f/RK=2/RS=gMWkIbQnRRPiPdZWGjqCvNdG.ck-"><img src="../assets/f1.jpg" alt="" height="60px" width="150px"></a></td>
+        <td><a href="https://www.facebook.com/myntra"><img src="../assets/facebook.jpg" alt="" height="30px" width="30px"></a> <a href="https://twitter.com/myntra"><img src="../assets/twitter.jpg" alt="" height="40px" width="40px"></a><a href="https://www.youtube.com/user/myntradotcom"><img src="../assets/youtube.jpg" alt="" height="30px" width="30px"></a>
+        <a href="https://www.youtube.com/user/myntradotcom"><img src="../assets/insta.jpg" alt="" height="40" width="40"></a></td>
+        <td><a routerLink="blog">Blog</a></td>
+      </tr>
+      <tr>
+        <td> <a routerLink="women">Women</a></td>
+        <td><a routerLink="fqa">FAQ</a></td>
+       <td></td>
+        <td></td>
+        <td><a routerLink="careers">Careers</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="kids">kids</a></td>
+            <td><a routerLink="t&c">T&C</a></td>
+              <td></td>
+                <td></td>
+                  <td><a routerLink="sitemap">Site Map</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="electronics">Electronics</a></td>
+        <td><a routerLink="teamofus">Team Of Us</a></td>
+        <td><a href="https://www.apple.com/in/app-store/"><img src="../assets/f2.jpg" alt="" height="60px" width="150px"></a></td>
+        <td></td>
+        <td><a routerLink="cinformation">Corporate Information</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="beauty">Beauty</a></td>
+        <td><a routerLink="trackorders">Track Orders</a></td>
+        <td></td>
+        <td></td>
+        <td><a routerLink="witehat">Witehat</a></td>
+      </tr>
+      <tr>
+        <td><a routerLink="giftcards">Giftcards</a></td>
+        <td><a routerLink="shipping">Shipping</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a routerLink="myntra">Myntra Insider</a></td>
+        <td><a routerLink="cancellation">cancellation</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a routerLink="returns">Returns</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a routerLink="privactpolicy">Privacy Policy</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a routerLink="officer">Grievance Officer</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table><br><br>
+    <h4><b>POPULAR SEARCHES</b></h4><br>
+    <p><h4>Kajal | M.a.c Lipstick | Skin Care | Long Lasting Lipstick | Body Lotion | Liquid Lipstick | Online Shopping | Men Online Shopping | Women Online Shopping | Home Furnishing | Highlighter | Eye Makeup | Makeup Kit | Lipstick | Lakme Lipstick | Lip Balm | Mac Eyeliner | Eyeshadow | Concealer | Nude Lipstick | Matte Lipstick | Blush | Maybelline Lipstick | Eyeliner | Foundation | Nail Polish | Makeup | Cosmetics | Hair Colour | Lakme Products | Perfume | Loreal Shampoo | Cleanser | Makeup Remover | Lakme Foundation | Hair Care | Face Wash | Matte Nail Polish | Colorbar Nail Polish | Lakme Nail Polish | Mascara | Brown Lipstick | Orange Lipstick | Pink Lipstick  |Purple Lipstick  |Red Lipstick | Lip Gloss | Lip Liner | Lip Care | Lakme Lip Gloss</h4>
+    <h4>In case of any concern, <b>Contact Us</b></h4>
+  </footer>
+  
+  
+  
+  

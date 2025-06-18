@@ -1,0 +1,13 @@
+body {
+	background: rgb(245, 230, 210);
+	font-family: "Open Sans", sans-serif;
+}
+img{
+    align-items: center;
+}
+span{
+    text-decoration-color:rgb(245, 230, 210); 
+}
+form{
+    button-colour:red;
+}
